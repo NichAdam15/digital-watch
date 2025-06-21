@@ -1,3 +1,9 @@
-#pragma once
+#ifndef BATTERY_H
+#define BATTERY_H
 
-int readBatteryPercent();
+#include <TFT_eSPI.h>
+
+int getBatteryPercentage();
+void drawBattery(TFT_eSPI* gfx, int percentage);
+
+#endif // BATTERY_H 
