@@ -1,5 +1,4 @@
 .pio/build/lolin_c3_mini/src/main.cpp.o: src/main.cpp \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/TFT_eSPI.h \
  C:/Users/nicha/.platformio/packages/framework-arduinoespressif32@3.20006.221224/cores/esp32/Arduino.h \
  C:/Users/nicha/.platformio/packages/framework-arduinoespressif32@3.20006.221224/cores/esp32/esp_arduino_version.h \
  C:/Users/nicha/.platformio/packages/framework-arduinoespressif32@3.20006.221224/tools/sdk/esp32c3/include/freertos/include/freertos/FreeRTOS.h \
@@ -157,6 +156,7 @@
  C:/Users/nicha/.platformio/packages/framework-arduinoespressif32@3.20006.221224/tools/sdk/esp32c3/include/spi_flash/include/esp_spi_flash.h \
  C:/Users/nicha/.platformio/packages/framework-arduinoespressif32@3.20006.221224/tools/sdk/esp32c3/include/spi_flash/include/esp_spi_flash_counters.h \
  C:/Users/nicha/.platformio/packages/framework-arduinoespressif32@3.20006.221224/tools/sdk/esp32c3/include/esp_hw_support/include/soc/esp32/spiram.h \
+ .pio/libdeps/lolin_c3_mini/TFT_eSPI/TFT_eSPI.h \
  C:/Users/nicha/.platformio/packages/framework-arduinoespressif32@3.20006.221224/cores/esp32/Print.h \
  C:/Users/nicha/.platformio/packages/framework-arduinoespressif32@3.20006.221224/libraries/SPI/src/SPI.h \
  C:/Users/nicha/.platformio/packages/framework-arduinoespressif32@3.20006.221224/cores/esp32/esp32-hal-spi.h \
@@ -183,62 +183,6 @@
  C:/Users/nicha/.platformio/packages/framework-arduinoespressif32@3.20006.221224/libraries/FS/src/FS.h \
  C:/Users/nicha/.platformio/packages/framework-arduinoespressif32@3.20006.221224/libraries/SPIFFS/src/SPIFFS.h \
  .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/glcdfont.c \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/gfxfont.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/TomThumb.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeMono9pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeMono12pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeMono18pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeMono24pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeMonoOblique9pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeMonoOblique12pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeMonoOblique18pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeMonoOblique24pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeMonoBold9pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeMonoBold12pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeMonoBold18pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeMonoBold24pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeMonoBoldOblique9pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeMonoBoldOblique12pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeMonoBoldOblique18pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeMonoBoldOblique24pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSans9pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSans12pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSans18pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSans24pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSansOblique9pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSansOblique12pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSansOblique18pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSansOblique24pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSansBold9pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSansBold12pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSansBold18pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSansBold24pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSansBoldOblique9pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSansBoldOblique12pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSansBoldOblique18pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSansBoldOblique24pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSerif9pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSerif12pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSerif18pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSerif24pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSerifItalic9pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSerifItalic12pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSerifItalic18pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSerifItalic24pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSerifBold9pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSerifBold12pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSerifBold18pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSerifBold24pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSerifBoldItalic9pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSerifBoldItalic12pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSerifBoldItalic18pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/GFXFF/FreeSerifBoldItalic24pt7b.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/User_Setups/User_Custom_Fonts.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/Custom/Orbitron_Light_24.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/Custom/Orbitron_Light_32.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/Custom/Roboto_Thin_24.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/Custom/Satisfy_24.h \
- .pio/libdeps/lolin_c3_mini/TFT_eSPI/Fonts/Custom/Yellowtail_32.h \
  .pio/libdeps/lolin_c3_mini/TFT_eSPI/Extensions/Smooth_font.h \
  .pio/libdeps/lolin_c3_mini/TFT_eSPI/Extensions/Button.h \
  .pio/libdeps/lolin_c3_mini/TFT_eSPI/Extensions/Sprite.h \
@@ -261,4 +205,6 @@
  C:/Users/nicha/.platformio/packages/framework-arduinoespressif32@3.20006.221224/libraries/WiFi/src/WiFiUdp.h \
  C:/Users/nicha/.platformio/packages/framework-arduinoespressif32@3.20006.221224/cores/esp32/Udp.h \
  C:/Users/nicha/.platformio/packages/framework-arduinoespressif32@3.20006.221224/cores/esp32/cbuf.h \
- include/battery.h include/weather.h
+ include/globals.h include/startup_ui.h include/main_screen.h \
+ include/weather_screen.h include/button.h include/globals.h \
+ include/network.h include/weather.h include/time_utils.h
